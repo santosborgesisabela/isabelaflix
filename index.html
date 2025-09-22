@@ -25,31 +25,17 @@
 
 </html>
 
-
-// Função para atualizar a hora
-function atualizarRelogio() {
-    // Cria um novo objeto de data
-    const data = new Date();
-
-    // Obtém as horas, minutos e segundos
-    let horas = data.getHours();
-    let minutos = data.getMinutes();
-    let segundos = data.getSeconds();
-
-    // Adiciona um zero na frente se o número for menor que 10
-    horas = horas < 10 ? '0' + horas : horas;
-    minutos = minutos < 10 ? '0' + minutos : minutos;
-    segundos = segundos < 10 ? '0' + segundos : segundos;
-
-    // Formata a string da hora
-    const horaFormatada = `${horas}:${minutos}:${segundos}`;
-
-    // Encontra o elemento com o ID 'relogio' e atualiza o texto
-    document.getElementById('relogio').innerText = horaFormatada;
-}
-
-// Chama a função a cada 1000 milissegundos (1 segundo)
-setInterval(atualizarRelogio, 1000);
-
-// Chama a função uma vez para não haver atraso inicial
-atualizarRelogio();
+world-clock/
+├── .github/
+│   └── FUNDING.yml (Opcional)
+├── .gitignore
+├── dist/ (Pasta para a versão final, compilada)
+├── src/ (Código-fonte)
+│   ├── css/
+│   │   └── style.css
+│   ├── js/
+│   │   └── main.js
+│   └── index.html
+├── LICENSE
+├── package.json (Se você usar Node.js ou pacotes)
+└── README.md
