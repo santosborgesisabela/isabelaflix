@@ -19,5 +19,6 @@ section {
 	justify-content: center;
 }
 
-.chamada-texto {
-    margin-right: 
+.imagem-lateral {
+    justify-content: right;
+}
