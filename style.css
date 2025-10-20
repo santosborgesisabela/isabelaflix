@@ -9,6 +9,7 @@ header {
 }
 
 body {
+    font-family: 'Nunito';
     color: white;
     background: rgb(202, 173, 255);
     margin: 0px;
@@ -16,6 +17,8 @@ body {
 
 
 .chamada-texto{
+    color: black;
+    font-family: 'Nunito';
     font-size: large;
 }
 .categoria-videos{
