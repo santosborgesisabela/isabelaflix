@@ -1,17 +1,21 @@
+header {
+    border-bottom: solid 2px rgb(214, 164, 255);
+    justify-content: center;
+    padding: 20px;
+    font-size: 32px;
+    color: rgb(0, 0, 0);
+}
+
 body {
     color: white;
     background: rgb(202, 173, 255);
     margin: 0px;
 }
 
-header {
-    border-bottom: solid 2px rgb(214, 164, 255);
-    padding: 20px;
-    font-size: 32px;
-    color: rgb(0, 0, 0);
+.chamada-texto{
+    font-size: large;
 }
-
-section {
+.categoria-videos{
 	background: rgb(226, 198, 255);
 	padding-bottom: 80px;
 	padding-top: 80px;
