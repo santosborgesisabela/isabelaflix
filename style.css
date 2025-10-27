@@ -60,9 +60,13 @@ p {
     font-size: 20px;
 }
 
-h2{
+.categoria1 h2,
+.categoria2 h2,
+.categoria3 h2,
+.categoria4 h2,
+.categoria5 h2,
+.categoria6 h2,
+.categoria7 h2,
+.categoria8 h2 {
     color: black !important;
-}
-.categoria1 {
-    color: black;
 }
