@@ -10,7 +10,7 @@ header {
 
 body {
     font-family: 'Nunito';
-    color: white;
+    color: rgb(0, 0, 0);
     background: rgb(202, 173, 255);
     margin: 0px;
 }
