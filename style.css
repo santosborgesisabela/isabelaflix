@@ -34,7 +34,16 @@ body {
 .imagem-lateral {
     justify-content: right;
 }
-  
+
+
+header {
+    border-bottom: solid 2px hsl(273, 100%, 82%);
+    padding: 70px;
+    font-size: 60px;
+    color: hsl(293, 100%, 79%);
+}
+
+
 section {
 	background: rgb(184,156,213);
 	padding-bottom: 80px;
