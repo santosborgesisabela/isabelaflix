@@ -20,6 +20,7 @@ header {
     font-size: large;
     text-align: center;
     justify-content: center;
+    margin-right: 5%;
 }
 .categoria-videos{
 	color: black;
@@ -41,11 +42,6 @@ section {
 	padding-top: 100px;
 	display: flex;
 	justify-content: center;
-}
-
-.chamada-texto {
-    color: black;
-    margin-right: 5%;
 }
 
 h1 {
