@@ -1,20 +1,18 @@
-header {
-    border-bottom: solid 2px rgb(214, 164, 255);
-    font-family: 'Nunito';
-    text-align: center;
-    justify-content: center;
-    padding: 20px;
-    font-size: 32px;
-    color: rgb(0, 0, 0);
-}
-
 body {
     font-family: 'Nunito';
     color: rgb(0, 0, 0);
     background: rgb(202, 173, 255);
     margin: 0px;
 }
-
+header {
+    color: rgb(0, 0, 0);
+    border-bottom: solid 2px rgb(214, 164, 255);
+    font-family: 'Nunito';
+    text-align: center;
+    justify-content: center;
+    padding: 20px;
+    font-size: 32px;
+}
 
 .chamada-texto{
     color: black;
