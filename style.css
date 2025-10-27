@@ -1,5 +1,6 @@
 body {
     max-width: 100%;
+    overflow-x: hidden
     display:block;
     font-family: 'Nunito';
     color: rgb(0, 0, 0);
