@@ -5,7 +5,7 @@ header {
     justify-content: center;
     padding: 20px;
     font-size: 32px;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 }
 
 body {
@@ -35,15 +35,6 @@ body {
 .imagem-lateral {
     justify-content: right;
 }
-
-
-header {
-    border-bottom: solid 2px hsl(0, 0%, 0%);
-    padding: 100px;
-    font-size: 100px;
-    color: hsl(0, 0%, 0%);
-}
-
 
 section {
     color: black;
