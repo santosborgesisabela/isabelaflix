@@ -61,7 +61,7 @@ p {
 }
 
 h2{
-    color: black;
+    color: black !important;
 }
 .categoria1 {
     color: black;
