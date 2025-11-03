@@ -73,4 +73,13 @@ p {
     font-size: 20px;
 }
 
+body {
+    max-width: 100%;
+    overflow-x: hidden; /* ← faltava o ponto e vírgula aqui */
+    display: block;
+    font-family: 'Nunito', sans-serif;
+    color: rgb(0, 0, 0);
+    background: rgb(202, 173, 255);
+    margin: 0;
+}
 
